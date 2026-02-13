@@ -1194,7 +1194,6 @@ local function new_builder(subcommand)
       {
         get_git_executable(),
         "--no-pager",
-        "--literal-pathspecs",
         "--no-optional-locks",
         "-c", "core.preloadindex=true",
         "-c", "color.ui=always",
